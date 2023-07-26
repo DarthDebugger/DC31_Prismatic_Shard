@@ -62,6 +62,7 @@ Battle mode auto selects from the powers you have achieved and auto heals period
 There is a Serial Terminal on the badge that you can interact with.
 One command you will want to know is  "LED".  Entering LED will cycle through the badges lighting power levels.  The higher the level the faster the battery will be drained. 
 The ATTiny1616 has a whopping 16kb of Flash, 2k of sram and a 256 byte EEPROM.  the CMD shell very, very limited, however there are some commands that may unlock other features.
+![CMD Mode](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/Photos/14%20CMD%20mode.PNG)
 
 
 

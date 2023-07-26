@@ -30,13 +30,16 @@ This badge is designed to be an interactive and captivating piece of hardware, p
 
 To get started with your Prismatic Shard badge, follow these steps:
 
-1. **Insert the Battery**  Please be very careful with the direction of the battery.  Putting it in backwards may cause permanent damage to the board instantly.
+1. **Insert the Battery**  
+Please be very careful with the direction of the battery.  Putting it in backwards may cause permanent damage to the board instantly.
 The battery is a type LIR2032 and is rechargeable.  The a charging circuit exists on the badge and you can charge the battery simply by plugging in the USB-C port to power.
 The onboard USB-C port is also a serial adapter and you can perform some basic interaction with the badge over the serial interface.
 
-2. **Power Up** Turn on your Prismatic Shard badge.  The switch is next to the USB-C port and get ready to explore its features!
+2. **Power Up** 
+Turn on your Prismatic Shard badge.  The switch is next to the USB-C port and get ready to explore its features!
 
-3. **Modes**  The Badge has 4 modes of operations.
+3. **Modes**  
+The Badge has 4 modes of operations.
 
 ![Prismatic Shard Modes](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/includes/media/Modes.png)
 

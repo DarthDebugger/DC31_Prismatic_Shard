@@ -1,14 +1,14 @@
-# Prismatic Shard
+# The Prismatic Shard Badge
 **An unofficial Defcon 31 Badge Compatible Electronic Shard**
 
 [The Prismatic Shard Badge](https://www.cybercircuitry.com/)
 
 
-This guide should provide some basic explanation of the badge and its functions.  There may inadvertently be some *minor spoilers
-so if you are hoping to do this badge totally on your own as a journey of discovery you may  want to tread lightly.
+This guide is intended to provide a basic explanation of the Prismatic Shard Badge and its functions.  There may inadvertently be some *minor spoilers
+so if you are hoping to do this badge totally on your own as a journey of discovery you may want to tread lightly.
 However, If you are having an issue or questions about the different functions and just need a little guidance, this is the place for you. 
 
-This badge is designed to be an interactive and captivating piece of hardware, providing a unique and memorable experience. We hope you'll enjoy exploring the features and possibilities of the Prismatic Shard.
+The Prismatic Shard Badge is designed to be an interactive and captivating piece of hardware and art, providing a unique and memorable experience to enjoy during and after the con. We hope you'll enjoy exploring the features and possibilities that the Prismatic Shard has to offer.
 
 ## Table of Contents
 - [Introduction](#prismatic-shard---defcon-31-electronic-badge)
@@ -28,29 +28,29 @@ This badge is designed to be an interactive and captivating piece of hardware, p
 
 ## Getting Started
 
-To get started with your Prismatic Shard badge, follow these steps:
+To get started with your Prismatic Shard Badge, follow these steps:
 
 1. **Insert the Battery**  
-Please be very careful with the direction of the battery.  Putting it in backwards may cause permanent damage to the board instantly.
-The battery is a type LIR2032 and is rechargeable.  The a charging circuit exists on the badge and you can charge the battery simply by plugging in the USB-C port to power.
-The onboard USB-C port is also a serial adapter and you can perform some basic interaction with the badge over the serial interface.
+Please be very careful with the polarity (direction) of the battery.  Putting it in backwards will cause permanent damage to the board instantly.
+The battery is a type LIR2032 and is rechargeable.  The shard comes with a built in charging controller and you can charge the battery simply by plugging in the USB-C port to power.
+The onboard USB-C port is also a serial adapter and you can perform some very basic interaction with the badge over the serial interface.  (115200 8N1)
 
 2. **Power Up** 
-Turn on your Prismatic Shard badge.  The switch is next to the USB-C port and get ready to explore its features!
+Turn on your Prismatic Shard badge.  The power switch is located next to the USB-C port. 
 
 3. **Modes**  
-The Badge has 4 modes of operations.
+Get ready to explore its features! The Badge has 4 modes of operations.
 
 ![Prismatic Shard Modes](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/includes/media/Modes.png)
 
-Transitioning from one mode to the next is as easy as pressing the mode button on the front of the board.
+Transitioning from one mode to the next is as easy as pressing the mode button on the front of the Badge.
 ![Prismatic Shard Mode Button](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/includes/media/mode_Btn.PNG)
 
 1. Bling Mode - 
-Bling can drain the battery but its rechargeable so enjoy that bling and turn some heads at the con!
+Bling can drain the battery.  The LED brightness and routines have been created with the battery in mind, but its also rechargeable so enjoy that bling and turn some heads at the con!
 ![Bling Mode Button](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/includes/media/Bling_action_btn.PNG)
 
-2. Meld Mode - Allows Friendly interaction with other badges
+2. Meld Mode - Allows Friendly interaction with other badges.
 ![Meld Mode Button](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/includes/media/Meld_Greet.PNG)
 
 3. Battle Mode - Fight with other badges to grow your powers.
@@ -60,7 +60,7 @@ Battle mode auto selects from the powers you have achieved and auto heals period
 
 4. CMD mode - 
 There is a Serial Terminal on the badge that you can interact with.
-One command you will want to know is  "LED".  Entering LED will cycle through the badges lighting power levels.  The higher the level the faster the battery will be drained. 
+One command you will want to know is  "LED".  Entering LED will cycle through the badges lighting power levels.  The higher the level the faster the battery will be drained (Max draw in my bench testing was close to 30mA at brightness of 100 which caused some instability and MCU brown outs, so the max brighness has been limtied to 60 which is still quite bright). 
 The ATTiny1616 has a whopping 16kb of Flash, 2k of sram and a 256 byte EEPROM.  the CMD shell very, very limited, however there are some commands that may unlock other features.
 ![CMD Mode](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/Photos/14%20CMD%20mode.PNG)
 
@@ -69,8 +69,8 @@ The ATTiny1616 has a whopping 16kb of Flash, 2k of sram and a 256 byte EEPROM.  
 ## FAQ
 
 ### **1. Can I customize the LED patterns on the badge?**
-Not until the source code is released but then absolutely.  The Prismatic Shard badge is designed to be highly customizable. You can modify anything once the repo is posted at the end of the con.  
-For now there are preprogrammed bling routines. and more may be available as you progress in the badge
+Not until the source code is released but then absolutely.  The Prismatic Shard badge is designed to be highly customizable. You can modify anything once the sourcecode is posted at the end of the con.  
+For now there are preprogrammed bling routines you can cycle through, and more may be available as you progress in the badge
 
 ### **2. How do I recharge the badge's battery?**
 The badge comes with a USB-rechargeable battery. To recharge, simply connect it to any standard USB port using a USB-C cable.
@@ -82,7 +82,6 @@ I 3D printed a replica from the [defcon.org](https://media.defcon.org/DEF%20CON%
 I will say that it is possible that the small "mouse bites" on the Prismatic Shard's edges may need some gentle trimming for the shard to easily side in and out of the holder.  
 I did some of that during depanelization.  If you decide to use sand paper on the badge, I would reccomend the approach of taping the sand paper to a table or hard surface and gently rubbing the badge against it.  
 Just be extra careful not to sand off any of the coating or traces on the front or back of the shard as this may perminently damage the badge.
-
 
 
 ### License

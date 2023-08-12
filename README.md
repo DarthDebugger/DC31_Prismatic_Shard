@@ -68,6 +68,10 @@ The ATTiny1616 has a whopping 16kb of Flash, 2k of sram and a 256 byte EEPROM.  
 
 ## How to play with others
 
+### General Rules
+Be polite, when you greet other badge owners. Introduce yourself and ask them how they are enjoying the con.  Offer the Meld with their badge or battle if they would like.
+Be understanding if someone does not want to battle as it does take a little while and they may be headed to a talk.
+
 ### Meld Mode
 Place your badge into meld (Friend) mode and hold it vertically (like its native position in the badge) at the other badge. This will align the IR LED and receiver with the other badge.
 Press the greet button to sync with the other badge. This will add them as a new friend and possibly give you a new mutation.

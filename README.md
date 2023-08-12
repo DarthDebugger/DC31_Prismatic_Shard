@@ -60,16 +60,34 @@ Battle mode auto selects from the powers you have achieved and auto heals period
 
 4. CMD mode - 
 There is a Serial Terminal on the badge that you can interact with.
-One command you will want to know is  "LED".  Entering LED will cycle through the badges lighting power levels.  The higher the level the faster the battery will be drained (Max draw in my bench testing was close to 30mA at brightness of 100 which caused some instability and MCU brown outs, so the max brighness has been limtied to 60 which is still quite bright). 
+One command you will want to know is  "LED".  Entering LED will cycle through the badges lighting power levels.  The higher the level the faster the battery will be drained (Max draw in my bench testing was close to 30mA at brightness of 100 which caused some instability and MCU brown outs, so the max brightness has been limited to 60 which is still quite bright). 
 The ATTiny1616 has a whopping 16kb of Flash, 2k of sram and a 256 byte EEPROM.  the CMD shell very, very limited, however there are some commands that may unlock other features.
 ![CMD Mode](https://github.com/DarthDebugger/DC31_Prismatic_Shard/blob/main/Photos/14%20CMD%20mode.PNG)
 
 
 
+## How to play with others
+
+### Meld Mode
+Place your badge into meld (Friend) mode and hold it vertically (like its native position in the badge) at the other badge. This will align the IR LED and receiver with the other badge.
+Press the greet button to sync with the other badge. This will add them as a new friend and possibly give you a new mutation.
+
+Mutations can make your attack spells stronger or give you a native defense against a specific attack type.
+
+##Battle Mode
+The same as meld mode hod your badge vertically and point it at your opponent.  You can battle friends without damaging your friendship status so you don’t have to worry about losing mutations.
+It is best to attack one at a time.  If you attack at the same time the attacks will cancel like that scene from harry potter.
+When you score a hit, the badge will flash showing your remaining health.
+
+You are killed when you have no health left.  (Health recharges over time)
+When you are killed your badge will flash red and your opponents badge should play a victory animation.
+
+
 ## FAQ
 
+
 ### **1. Can I customize the LED patterns on the badge?**
-Not until the source code is released but then absolutely.  The Prismatic Shard badge is designed to be highly customizable. You can modify anything once the sourcecode is posted at the end of the con.  
+Not until the source code is released but then absolutely.  The Prismatic Shard badge is designed to be highly customizable. You can modify anything once the source code is posted at the end of the con.  
 For now there are preprogrammed bling routines you can cycle through, and more may be available as you progress in the badge
 
 ### **2. How do I recharge the badge's battery?**
@@ -80,8 +98,8 @@ Please DO NOT use a non-rechargeable battery like the CR2032.  (If the charging 
 the Prismatic Shard badge is designed to and always intended to be fully compatible with Defcon 31 badge as far as we know.  
 I 3D printed a replica from the [defcon.org](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20badge/) [blender file](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20badge/DC31BADGE-CHAMBER.blend) and triple checked measurements against the [PDF posted](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20badge/Badge%20Add-On.pdf), but that is still no guarantee that it will be a perfect match.  
 I will say that it is possible that the small "mouse bites" on the Prismatic Shard's edges may need some gentle trimming for the shard to easily side in and out of the holder.  
-I did some of that during depanelization.  If you decide to use sand paper on the badge, I would reccomend the approach of taping the sand paper to a table or hard surface and gently rubbing the badge against it.  
-Just be extra careful not to sand off any of the coating or traces on the front or back of the shard as this may perminently damage the badge.
+I did some of that during depanelization.  If you decide to use sand paper on the badge, I would recommend the approach of taping the sand paper to a table or hard surface and gently rubbing the badge against it.  
+Just be extra careful not to sand off any of the coating or traces on the front or back of the shard as this may permanently damage the badge.
 
 
 ### License

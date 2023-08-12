@@ -86,6 +86,8 @@ When you score a hit, the badge will flash showing your remaining health.
 You are killed when you have no health left.  (Health recharges over time)
 When you are killed your badge will flash red and your opponents badge should play a victory animation.
 
+Leveling:  Battleing helps you level.  This gives you more health and makes your attacks stronger.   It can also unlock new spells.
+
 
 ## FAQ
 

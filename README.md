@@ -108,10 +108,4 @@ I did some of that during depanelization.  If you decide to use sand paper on th
 Just be extra careful not to sand off any of the coating or traces on the front or back of the shard as this may permanently damage the badge.
 
 
-### License
-
-This project is licensed under the [Apache License 2.0](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license. Per the license, this software is provided on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND
-
----
-
 We hope you enjoy your Prismatic Shard badge! If you have any questions or need assistance, please feel free to reach out to us through the issue tracker or via email. Happy hacking!
